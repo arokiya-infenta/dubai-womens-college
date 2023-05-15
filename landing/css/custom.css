@@ -1,0 +1,55 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+.course-details label {
+    font-size: 14px;
+}
+.course-details .form-control {
+    font-size: 14px;
+}
+.stud-details label {
+    font-size: 14px;
+}
+.stud-details .form-control {
+    font-size: 14px;
+}
+.stud-details .radio-inline {
+    padding-right: 20px;
+}
+a.ist {
+    color: #fff;
+}
+.row.norms {
+    margin-top: 25px;
+}
+input#Save {
+    background: #2f2483;
+    padding: 5px 20px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+}
+#Preview
+{
+    background: #2f2483;
+    padding: 5px 20px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+}
+input#appli
+{
+      background: #2f2483;
+    padding: 5px 20px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;  
+}
+.heading_main.text_align_center {
+
+    padding-top: 50px;
+}
+h2.ttl {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}

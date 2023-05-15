@@ -1,0 +1,4 @@
+__ci_last_regenerate|i:1671106975;user|a:8:{s:7:"user_id";s:4:"6640";s:13:"user_m_course";s:1:"2";s:9:"user_name";s:7:"AKSHAYA";s:13:"user_email_id";s:21:"akshaya0492@gmail.com";s:11:"user_mobile";s:10:"7708407673";s:16:"user_email_valid";s:1:"0";s:17:"user_mobile_valid";s:1:"0";s:9:"user_year";s:4:"2022";}message|s:265:" <div class="alert alert-danger alert-dismissible">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Payment Failed !</strong> Payment Failed Pls Try after sometimes or with different Payment Mode.
+        </div>";__ci_vars|a:1:{s:7:"message";s:3:"old";}

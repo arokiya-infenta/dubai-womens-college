@@ -1,0 +1,15 @@
+.banner-section {
+  background: url("landing/images/banner.png");
+  background-size: cover !important;
+  height: 100vh !important;
+  background-repeat: no-repeat;
+}
+
+.form-box {
+  background: #797b7338 !important;
+}
+
+.form-heading {
+  color: white;
+  padding: ;
+}

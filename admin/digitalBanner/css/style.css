@@ -1,0 +1,153 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #2D3E50;
+    color: #fff;
+    overflow: hidden;
+}
+p {
+    font-size: 1.2rem;
+}
+.mssw {
+    display: flex;
+    margin: 30px;
+}
+.mssw .left-section {
+    width: 50vw;
+}
+.mssw .right-section {
+    width: 50vw;
+    margin: 10px 30px;
+}
+.mssw .left-section .text-content{
+    display: flex;
+    align-items: center;
+}
+.mssw .left-section .text-content .header-text {
+    padding-left: 30px;
+    text-align: center;
+}
+.mssw .left-section .text-content .header-text h1 {
+    margin: 6px 0;
+}
+.mssw .left-section .text-content .header-text p {
+    margin: 5px 0;
+}
+
+.text-scroll-content {
+    margin-top: 50px;
+}
+
+.scroll-box {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 65vh;
+    position: relative;
+}
+.scroll-box p {
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.548);
+    padding-bottom: 20px;
+}
+.video {
+    height: 40vh;
+}
+.video video {
+    width: 100%;
+    height: 100%;
+}
+
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.slideshow-container div img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot-content {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 45%;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.slide-txt {
+    position: absolute;
+    bottom: 0%;
+    transition: all 2s ease;
+}
+
+
+@keyframes slide {
+    0% { bottom: -90%; }
+    100% { bottom: 100%;}
+  }
+  
+  .slide-txt { animation: slide 30s infinite; }
+  .slide-txt:hover { animation-play-state: paused; }
